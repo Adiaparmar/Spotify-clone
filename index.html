@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option" style="background-color: #121212;">
+                        <img src="assets/library_icon.png" style="background-color: #121212;">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons" style="background-color: #121212;">
+                        <i class="fa-solid fa-plus" style="background-color: #121212"></i>
+                        <i class="fa-solid fa-arrow-right" style="background-color: #121212"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1" style="background-color: #232323" >Create your first playlist</p>
+                        <p class="box-p2" style="background-color: #232323">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box podcast">
+                        <p class="box-p1" style="background-color: #232323" >Let's find some podcasts to follow</p>
+                        <p class="box-p2" style="background-color: #232323">We'll keep you updated</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons" style="background-color: #121212;">
+                    <img src="./assets/backward_icon.png" style="background-color: #121212; margin-right: 0.5rem;">
+                    <img src="./assets/forward_icon.png" class="hide" style="background-color: #121212;">
+                </div>
+                <div class="sticky-nav-options" style="background-color: #121212;">
+                    <button class="badge hi">Explore Premium</button>
+                    <button class="badge hi dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+
+            </div>
+            
+            <h2 style="background-color: #121212;">Recently Played</h2>
+            <div class="cards-container" style="background-color: #121212;">
+                <div class="card">
+                    <img src="assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <div class="heading" style="background-color: #121212;">
+                <h2 class="hey" style="background-color: #121212;">India's Best</h2>
+                <h5 class="hey" style="background-color: #121212; margin-right: 1.2rem; font-weight: 600; opacity: 0.7;">Show all</h4>
+            </div>
+            <div class="playlist" style="background-color: #121212;" >
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/ib1.png" class="card-img">
+                        <p class="card-title">Tollywood pearls</p>
+                        <p class="card-info">The finest set of telugu music from past 5...</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/ib2.png" class="card-img">
+                        <p class="card-title">Bollywood butter</p>
+                        <p class="card-info">B bole toh biggest blockbusters, right he...</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/ib3.png" class="card-img">
+                        <p class="card-title">Indie India</p>
+                        <p class="card-info">Best of the Indian Indie scene. Cover -...</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/ib4.png" class="card-img">
+                        <p class="card-title">Kollywood Cream</p>
+                        <p class="card-info">Finest collection of Tamil music from the...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heading" style="background-color: #121212;">
+                <h2 class="hey" style="background-color: #121212;">Discover picks for you</h2>
+                <h5 class="hey" style="background-color: #121212; margin-right: 1.2rem; font-weight: 600; opacity: 0.7;">Show all</h4>
+            </div>
+            <div class="playlist" style="background-color: #121212;" >
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/dp1.png" class="card-img">
+                        <p class="card-title">Chan Kithan (Folk..</p>
+                        <p class="card-info">Harshdeep Kaur</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/dp2.png" class="card-img">
+                        <p class="card-title">Coke Studio India...</p>
+                        <p class="card-info">Salim-Sulaiman</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/dp3.png" class="card-img">
+                        <p class="card-title">Women of: Coke St..</p>
+                        <p class="card-info">Queens of Coke St.</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/dp4.png" class="card-img">
+                        <p class="card-title">Aaya Laariye (Cok...</p>
+                        <p class="card-info">Meesha Shafi</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heading" style="background-color: #121212;">
+                <h2 class="hey" style="background-color: #121212;">Popular Albums</h2>
+                <h5 class="hey" style="background-color: #121212; margin-right: 1.2rem; font-weight: 600; opacity: 0.7;">Show all</h4>
+            </div>
+            <div class="playlist" style="background-color: #121212;" >
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/pa1.png" class="card-img">
+                        <p class="card-title">Still Rollin</p>
+                        <p class="card-info">Shubh</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/pa2.png" class="card-img">
+                        <p class="card-title">Moosetape</p>
+                        <p class="card-info">Sidhu moose wala</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/pa3.png" class="card-img">
+                        <p class="card-title">Phir Aur Kya Cha..</p>
+                        <p class="card-info">Sachin - Jigar</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/pa4.png" class="card-img">
+                        <p class="card-title">Yeh Jawani Hai D..</p>
+                        <p class="card-info">Pritam</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heading" style="background-color: #121212;">
+                <h2 class="hey" style="background-color: #121212;">Best of artists</h2>
+                <h5 class="hey" style="background-color: #121212; margin-right: 1.2rem; font-weight: 600; opacity: 0.7;">Show all</h4>
+            </div>          
+            <div class="playlist" style="background-color: #121212;" >
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/ba1.png" class="card-img">
+                        <p class="card-title">This is Pritam</p>
+                        <p class="card-info">This is Pritam. The essential tracks, all in..</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/ba2.png" class="card-img">
+                        <p class="card-title">This is Shubh</p>
+                        <p class="card-info">This is Shubh. The essential tracks, all in..</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/ba3.png" class="card-img">
+                        <p class="card-title">This is Arijit Singh</p>
+                        <p class="card-info">Bollywood crooner's essential songs</p>
+                    </div>
+                </div>
+                <div class="cards-container" style="background-color: #121212;">
+                    <div class="card">
+                        <img src="assets/ba4.png" class="card-img">
+                        <p class="card-title">This is AP Dhillon</p>
+                        <p class="card-info">By spotify</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer" style="background-color: #121212;">
+                <div class="line" style="background-color: #121212;"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="assets/ap.png" style="height: 3.5rem ; width: 3.5rem; margin-left: 1rem; margin-bottom: 0.5rem;">
+                <div class="song">
+                    <p style="font-size: 14px;margin-bottom: 0.3rem;">As It Was</p>
+                    <p style="font-size: 12px; opacity: 0.6;">Harry Styles</p>
+                </div>
+                <img src="assets/album_icon1.png" style="height: 1.3rem ; width: 1.3rem; opacity: 0.7;">
+                <img src="assets/album_icon2.png" style="height: 1.7rem ; width: 1.5rem;">
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time" style="margin-right: 0.4rem; opacity: 0.7; font-size: small;">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="total-time" style="margin-left: 0.4rem; opacity: 0.7;font-size: small;">03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="assets/controls_icon1.png" style="height: 2rem; width: 1.5rem;">
+                <img src="assets/controls_icon2.png" style="height: 2rem; width: 1.5rem;">
+                <img src="assets/controls_icon3.png" style="height: 1.2rem; width: 1.2rem; opacity:0.7">
+                <img src="assets/controls_icon4.png" style="height: 1rem; width: 1rem; margin-left: 0.5rem; opacity:0.7">
+                <img src="assets/controls_icon5.png" style="height: 2rem; width: 1.5rem;">
+                <input type="range" min="0" max="100" class="volume-bar" style="margin-right: 1.5rem;">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
